@@ -1,6 +1,6 @@
 # Hurma — Gizlilik Politikası
 
-**Son güncelleme:** 22 Temmuz 2026
+**Son güncelleme:** 3 Ağustos 2026
 
 Hurma, Kur'an-ı Kerim okumayı öğreten bir mobil uygulamadır. Bu politika, uygulamayı kullandığınızda hangi verilerin işlendiğini açıklar.
 
@@ -8,9 +8,10 @@ Hurma, Kur'an-ı Kerim okumayı öğreten bir mobil uygulamadır. Bu politika, u
 
 ## Kısaca
 
-- Reklam göstermiyoruz.
-- Hiçbir analiz veya izleme aracı kullanmıyoruz.
 - Verilerinizi kimseye satmıyor, pazarlama amacıyla paylaşmıyoruz.
+- Kullanım analitiği veya davranış takibi aracı kullanmıyoruz.
+- Ücretsiz sürümde bölüm sonlarında **reklam gösterilir**; abonelikle reklamlar kalkar.
+- Rehberinize eriştiğimizde bile **rehber verisi cihazınızdan çıkmaz**.
 - Hesabınızı ve tüm verilerinizi uygulama içinden kalıcı olarak silebilirsiniz.
 
 ---
@@ -21,10 +22,18 @@ Hurma, Kur'an-ı Kerim okumayı öğreten bir mobil uygulamadır. Bu politika, u
 Hesap oluşturduğunuzda:
 
 - **E-posta adresiniz** — giriş yapmanız için gereklidir.
-- **Şifreniz** — şifreleme sağlayıcımız (Supabase) tarafından geri döndürülemez biçimde şifrelenerek saklanır. Şifrenizin açık hâlini biz göremeyiz.
-- **Adınız** — isteğe bağlıdır, boş bırakabilirsiniz. Yalnızca uygulama içinde size hitap etmek için kullanılır.
+- **Şifreniz** — altyapı sağlayıcımız (Supabase) tarafından geri döndürülemez biçimde şifrelenerek saklanır. Şifrenizin açık hâlini biz göremeyiz. Google veya Apple ile giriş yaparsanız şifre hiç oluşturulmaz.
 
 Apple veya Google ile giriş yapmayı seçerseniz, bu sağlayıcılardan yalnızca e-posta adresiniz ve (paylaşmayı seçtiyseniz) adınız alınır.
+
+### Profil bilgileri
+Kayıttan sonra profilinizi tamamlamanız istenir:
+
+- **Adınız ve soyadınız**
+- **Yaşınız**
+- **Cinsiyetiniz**
+
+Bu bilgiler hesabınıza kaydedilir. Yaş bilgisi, uygulamanın 13 yaş sınırını uygulayabilmesi için sorulur.
 
 ### Öğrenme ilerlemeniz
 Kaldığınız yerden devam edebilmeniz için şunlar hesabınıza kaydedilir:
@@ -42,21 +51,61 @@ Uygulama, internet olmadan da çalışabilmesi için yukarıdaki bilgilerin bir 
 
 ---
 
-## 2. Toplamadığımız veriler
+## 2. Rehber erişimi
+
+Arkadaşlarınızı davet etmek isterseniz uygulama rehberinize erişmek için **izin ister**. İzin vermezseniz uygulama aynen çalışmaya devam eder.
+
+İzin verdiğinizde:
+
+- Rehberiniz **yalnızca cihazınızda** okunur ve listelenir.
+- Rehber verisi **sunucularımıza yüklenmez**, kaydedilmez, hiç kimseyle paylaşılmaz.
+- Bir kişiyi seçtiğinizde, telefonunuzun kendi paylaşım penceresi açılır ve daveti **siz** gönderirsiniz.
+
+---
+
+## 3. Liderlik tablosu
+
+Uygulamada haftalık ve genel liderlik tablosu vardır. Giriş yapmış diğer kullanıcılar burada **görünen adınızı ve XP puanınızı** görebilir. E-posta adresiniz, soyadınız, yaşınız ve cinsiyetiniz liderlik tablosunda **gösterilmez**.
+
+Adınızın görünmesini istemiyorsanız profil ekranından değiştirebilirsiniz.
+
+---
+
+## 4. Reklamlar
+
+Ücretsiz sürümde, bölüm sonlarında **Google AdMob** üzerinden geçiş reklamı gösterilir. İlk dersinizde reklam gösterilmez. **hurma+Premium** aboneliğiniz varsa reklam hiç gösterilmez.
+
+iOS'ta uygulama, ilk açılışlarda **izleme izni** ister (App Tracking Transparency). Bu izni:
+
+- **Verirseniz** reklam kimliğiniz (IDFA) AdMob ile paylaşılır ve daha alakalı reklamlar gösterilir.
+- **Vermezseniz** reklamlar yine gösterilir ama kişiselleştirilmez. Uygulama aynen çalışır.
+
+İzni dilediğiniz zaman telefonunuzun *Ayarlar → Gizlilik ve Güvenlik → İzleme* bölümünden değiştirebilirsiniz.
+
+AdMob'un veri işleyişi Google'ın kendi gizlilik politikasına tabidir.
+
+---
+
+## 5. Abonelik
+
+**hurma+Premium** satın alırsanız ödeme Apple App Store üzerinden gerçekleşir. Abonelik durumunuzu takip etmek için **RevenueCat** hizmetini kullanırız. Kart bilgileriniz bize hiçbir zaman ulaşmaz; ödeme tamamen Apple tarafında gerçekleşir.
+
+---
+
+## 6. Toplamadığımız veriler
 
 Aşağıdakilere **erişmiyoruz ve toplamıyoruz**:
 
 - Konumunuz
-- Rehberiniz, fotoğraflarınız, dosyalarınız
+- Fotoğraflarınız, dosyalarınız
 - Mikrofon veya kamera
-- Reklam kimliğiniz (IDFA) — reklam göstermiyoruz
 - Kullanım analitiği, davranış takibi, çerez tabanlı izleme
 
-Uygulamada üçüncü taraf reklam ağı, analiz aracı veya izleme SDK'sı bulunmaz.
+Uygulamada analiz aracı veya davranış takip SDK'sı bulunmaz. Reklam gösterimi dışında üçüncü taraf izleme yoktur.
 
 ---
 
-## 3. Verilerinizi neden işliyoruz
+## 7. Verilerinizi neden işliyoruz
 
 | Amaç | Veri |
 |---|---|
@@ -64,16 +113,19 @@ Uygulamada üçüncü taraf reklam ağı, analiz aracı veya izleme SDK'sı bulu
 | İlerlemenizin kaybolmaması, cihaz değiştirince geri gelmesi | XP, seri, tamamlanan bölümler |
 | Size uygun tekrar alıştırmaları sunmak | Zorlandığınız kelimeler |
 | Günlük hatırlatma göndermek (siz açtıysanız) | Bildirim tercihi |
+| Liderlik tablosunu gösterebilmek | Görünen ad, XP |
+| 13 yaş sınırını uygulamak | Yaş |
+| Reklam gösterimi (ücretsiz sürümde) | Reklam kimliği — yalnızca izin verdiyseniz |
 
-Bu işlemenin hukuki dayanağı, sizinle aramızdaki hizmet ilişkisinin yerine getirilmesi ve açık rızanızdır (bildirimler için).
+Bu işlemenin hukuki dayanağı, sizinle aramızdaki hizmet ilişkisinin yerine getirilmesi ve açık rızanızdır (bildirimler, rehber erişimi ve izleme izni için).
 
 ---
 
-## 4. Verilerin saklandığı yer ve paylaşımı
+## 8. Verilerin saklandığı yer ve paylaşımı
 
-Hesap ve ilerleme verileriniz **Supabase** altyapısında saklanır. Supabase yalnızca bizim adımıza veri barındırır; verilerinizi kendi amaçları için kullanmaz.
+Hesap ve ilerleme verileriniz **Supabase** altyapısında saklanır. Supabase yalnızca bizim adımıza veri barındırır; verilerinizi kendi amaçları için kullanmaz. Veritabanı satır düzeyinde güvenlik (RLS) ile korunur: her kullanıcı yalnızca kendi kaydına erişebilir. Liderlik tablosu için yalnızca görünen ad ve puan alanları diğer kullanıcılara açılır.
 
-Veritabanı satır düzeyinde güvenlik (RLS) ile korunur: her kullanıcı yalnızca kendi kaydına erişebilir.
+E-posta gönderimi (şifre sıfırlama, adres doğrulama) **Brevo** üzerinden yapılır; bu hizmete yalnızca e-posta adresiniz iletilir.
 
 ### Ses dosyaları
 Uygulama, harf ve ayet seslerini şu kaynaklardan yayın anında çeker:
@@ -87,13 +139,13 @@ Bunların dışında verilerinizi **hiçbir üçüncü tarafla paylaşmıyoruz**
 
 ---
 
-## 5. Bildirimler
+## 9. Bildirimler
 
 Günlük hatırlatmalar **cihazınızda yerel olarak** planlanır. Uygulama uzak bildirim (push) altyapısı kullanmaz; cihaz bildirim jetonunuz sunucularımıza gönderilmez. Bildirimleri uygulama içindeki ayarlardan veya telefonunuzun ayarlarından kapatabilirsiniz.
 
 ---
 
-## 6. Hesabınızı silme
+## 10. Hesabınızı silme
 
 Hesabınızı istediğiniz zaman uygulama içinden silebilirsiniz:
 
@@ -105,31 +157,31 @@ Dilerseniz aşağıdaki e-posta adresine yazarak da silme talebinde bulunabilirs
 
 ---
 
-## 7. Verilerin saklanma süresi
+## 11. Verilerin saklanma süresi
 
 Verileriniz, hesabınız açık kaldığı sürece saklanır. Hesabınızı sildiğinizde veriler derhâl silinir; yedeklerden temizlenmesi en fazla 30 gün sürebilir.
 
 ---
 
-## 8. Çocukların gizliliği
+## 12. Çocukların gizliliği
 
-Uygulama her yaştan kullanıcıya uygundur ve çocuklara yönelik özel veri toplamaz. 13 yaşın altındaki kullanıcıların hesap oluşturmadan önce ebeveyn onayı almasını öneririz.
+Uygulama **13 yaş ve üzeri** kullanıcılar içindir. Kayıt sırasında yaş sorulur. 13 yaşından küçük kullanıcıların uygulamayı ebeveyn gözetiminde kullanması gerekir; bilerek 13 yaş altından veri toplamayız. Böyle bir kaydı fark edersek veriyi sileriz.
 
 ---
 
-## 9. Haklarınız
+## 13. Haklarınız
 
 Size ait verilerle ilgili olarak; erişme, düzeltme, silme ve işlenmesine itiraz etme haklarına sahipsiniz. Bu haklarınızı kullanmak için aşağıdaki adresten bize ulaşabilirsiniz.
 
 ---
 
-## 10. Değişiklikler
+## 14. Değişiklikler
 
 Bu politikada değişiklik olursa bu sayfayı güncelleyeceğiz ve "son güncelleme" tarihini değiştireceğiz. Önemli değişikliklerde uygulama içinde bilgilendirme yapılır.
 
 ---
 
-## 11. İletişim
+## 15. İletişim
 
 Sorularınız için:
 
