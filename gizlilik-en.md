@@ -1,6 +1,6 @@
 # Hurma — Privacy Policy
 
-**Last updated:** 3 August 2026
+**Last updated:** 30 August 2026
 
 Hurma is a mobile app that teaches you to read the Qur'an. This policy explains what data is processed when you use the app.
 
@@ -9,8 +9,8 @@ Hurma is a mobile app that teaches you to read the Qur'an. This policy explains 
 ## In short
 
 - We do not sell your data to anyone, and we do not share it for marketing.
+- The app contains **no advertising**; no ad or analytics tool is used.
 - We use no usage analytics or behavioural tracking tools.
-- The free version **shows ads** at the end of sections; a subscription removes them.
 - Even when we access your contacts, **your contact data never leaves your device**.
 - You can permanently delete your account and all your data from inside the app.
 
@@ -43,7 +43,7 @@ So you can pick up where you left off, the following is saved to your account:
 - Your heart count and the time they last refilled
 - The sections you completed and how many times you played them
 - The list of words you struggled with (used for review exercises)
-- Your notification preference
+- Your notification preference and your device notification token
 - The date you were last active
 
 ### Data that stays on your device
@@ -71,67 +71,56 @@ If you do not want your name shown, you can change it from the profile screen.
 
 ---
 
-## 4. Ads
+## 4. Subscription
 
-In the free version, an interstitial ad from **Google AdMob** is shown at the end of sections. No ad is shown during your first lesson. If you have a **hurma+Premium** subscription, no ads are shown at all.
+**This version contains no in-app purchases.**
 
-On iOS the app asks for **tracking permission** during the first few launches (App Tracking Transparency). If you:
-
-- **Allow it**, your advertising identifier (IDFA) is shared with AdMob and you see more relevant ads.
-- **Decline**, ads are still shown but are not personalised. The app works exactly the same.
-
-You can change this permission at any time under *Settings → Privacy & Security → Tracking* on your phone.
-
-AdMob's handling of data is governed by Google's own privacy policy.
+If a **hurma+Premium** subscription is enabled in future, payment will be processed through the Apple App Store and the **RevenueCat** service will be used to track subscription status. Your card details never reach us; payment happens entirely on Apple's side.
 
 ---
 
-## 5. Subscription
-
-If you purchase **hurma+Premium**, payment is processed through the Apple App Store. We use the **RevenueCat** service to track your subscription status. Your card details never reach us; payment happens entirely on Apple's side.
-
----
-
-## 6. Data we do not collect
+## 5. Data we do not collect
 
 We **do not access or collect** any of the following:
 
-- Your location
 - Your photos or files
 - Your microphone or camera
 - Usage analytics, behavioural tracking, cookie-based tracking
+- Your advertising identifier (IDFA)
 
-The app contains no analytics tool and no behavioural tracking SDK. Apart from serving ads, there is no third-party tracking.
+The app contains **no advertising SDK, no analytics tool and no behavioural tracking SDK**. There is no third-party tracking of any kind. The app does not track you across other apps or websites, and for that reason no App Tracking Transparency prompt is shown on iOS.
+
+Your location is accessed only to calculate prayer times, and only if you grant permission. Location data stays on your device and is not sent to our servers. Granting it is optional — you can type your city in instead.
 
 ---
 
-## 7. Why we process your data
+## 6. Why we process your data
 
 | Purpose | Data |
 |---|---|
 | So you can sign in to your account | Email, password |
 | So your progress is not lost and returns when you change device | XP, streak, completed sections |
 | To offer you suitable review exercises | Words you struggled with |
-| To send a daily reminder (if you enabled it) | Notification preference |
+| To send you a daily reminder notification | Notification preference, device notification token |
 | To display the leaderboard | Display name, XP |
 | To enforce the 13-year age limit | Age |
-| To serve ads (free version) | Advertising identifier — only if you allowed it |
+| To calculate prayer times | The city you select (or your location, if you allowed it) |
 
-The legal basis for this processing is the performance of the service agreement between us, and your explicit consent (for notifications, contacts access and tracking permission).
+The legal basis for this processing is the performance of the service agreement between us, and your explicit consent (for notifications, contacts access and location).
 
 ---
 
-## 8. Where data is stored and how it is shared
+## 7. Where data is stored and how it is shared
 
 Your account and progress data are stored on **Supabase** infrastructure. Supabase only hosts data on our behalf; it does not use your data for its own purposes. The database is protected by row-level security (RLS): each user can access only their own record. For the leaderboard, only the display name and score fields are exposed to other users.
 
 Email delivery (password reset, address verification) is handled through **Brevo**; only your email address is passed to that service.
 
 ### Audio files
-The app streams letter and verse audio at playback time from these sources:
+The app streams letter and verse audio at playback time from these two sources. The audio is never downloaded, copied or redistributed:
 
-- `kuran.diyanet.gov.tr` — Presidency of Religious Affairs (Diyanet) alphabet recordings
-- `everyayah.com` and `audio.qurancdn.com` — surah recordings
+- `kuran.diyanet.gov.tr` — publicly available alphabet (letter and vowel-mark) recordings of the Presidency of Religious Affairs of Türkiye (Diyanet)
+- `audio.qurancdn.com` — Quran Foundation; verse recitation and word-by-word pronunciation. Hurma is a registered developer with Quran Foundation and operates under its developer terms.
 
 When an audio file is played, those servers see your device's IP address, as with any internet request. No information about your account is sent to those servers.
 
@@ -139,13 +128,13 @@ Apart from this, we **share your data with no third party**. Sharing may occur o
 
 ---
 
-## 9. Notifications
+## 8. Notifications
 
-Daily reminders are scheduled **locally on your device**. The app uses no remote push infrastructure; your device notification token is never sent to our servers. You can turn notifications off from the app's settings or from your phone's settings.
+Daily reminders are scheduled **locally on your device**. If you have an account, your device notification token is stored against that account — it is used solely to send you notifications, is processed for no other purpose, and is shared with no one. You can turn notifications off from the app's settings or from your phone's settings.
 
 ---
 
-## 10. Deleting your account
+## 9. Deleting your account
 
 You can delete your account from inside the app at any time:
 
@@ -157,31 +146,31 @@ You may also request deletion by writing to the email address below.
 
 ---
 
-## 11. How long data is kept
+## 10. How long data is kept
 
 Your data is kept for as long as your account remains open. When you delete your account, the data is deleted immediately; clearing it from backups may take up to 30 days.
 
 ---
 
-## 12. Children's privacy
+## 11. Children's privacy
 
 The app is intended for users **aged 13 and over**. Age is asked during registration. Users under 13 should use the app under parental supervision; we do not knowingly collect data from anyone under 13. If we become aware of such a record, we delete the data.
 
 ---
 
-## 13. Your rights
+## 12. Your rights
 
 You have the right to access, correct and delete your data, and to object to its processing. To exercise these rights, please contact us at the address below.
 
 ---
 
-## 14. Changes
+## 13. Changes
 
 If this policy changes, we will update this page and change the "last updated" date. For significant changes, we will also inform you inside the app.
 
 ---
 
-## 15. Contact
+## 14. Contact
 
 For questions:
 
