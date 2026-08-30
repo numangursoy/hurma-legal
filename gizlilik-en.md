@@ -90,7 +90,7 @@ We **do not access or collect** any of the following:
 
 The app contains **no advertising SDK, no analytics tool and no behavioural tracking SDK**. There is no third-party tracking of any kind. The app does not track you across other apps or websites, and for that reason no App Tracking Transparency prompt is shown on iOS.
 
-Your location is accessed only to calculate prayer times, and only if you grant permission. Location data stays on your device and is not sent to our servers. Granting it is optional — you can type your city in instead.
+Your location is accessed only to calculate prayer times, and only if you grant permission. Your location is **not sent to our servers**; it is passed to the prayer-time service that performs the calculation (see section 7). Granting it is optional — you can type your city in instead.
 
 ---
 
@@ -123,6 +123,13 @@ The app streams letter and verse audio at playback time from these two sources. 
 - `audio.qurancdn.com` — Quran Foundation; verse recitation and word-by-word pronunciation. Hurma is a registered developer with Quran Foundation and operates under its developer terms.
 
 When an audio file is played, those servers see your device's IP address, as with any internet request. No information about your account is sent to those servers.
+
+### Prayer times and weather
+Prayer times are calculated through `api.aladhan.com` (Aladhan). If you granted location permission your coordinates are sent to that service; if you did not, only the name of the city you selected is sent.
+
+For the temperature and weather effect on the personalisation screen we use `api.open-meteo.com`, and for city search `geocoding-api.open-meteo.com` (Open-Meteo); those receive only coordinates or the city name you are searching for.
+
+Neither service requires an account. The requests we send them carry no name, e-mail, account or anything else that identifies you — as with any internet request, they see your device's IP address.
 
 Apart from this, we **share your data with no third party**. Sharing may occur only where legally required (a court order, for example).
 
