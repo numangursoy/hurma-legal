@@ -90,7 +90,7 @@ Aşağıdakilere **erişmiyoruz ve toplamıyoruz**:
 
 Uygulamada **reklam SDK'sı, analiz aracı ve davranış takip SDK'sı bulunmaz**. Hiçbir üçüncü taraf izlemesi yoktur. Uygulama sizi başka uygulama ve web sitelerinde takip etmez; bu nedenle iOS'ta izleme izni (App Tracking Transparency) penceresi de gösterilmez.
 
-Konumunuza yalnızca namaz vakitlerini hesaplamak için ve yalnızca siz izin verirseniz erişilir. Konum bilgisi cihazınızda kalır, sunucularımıza gönderilmez. İzin vermek zorunda değilsiniz; şehrinizi elle de yazabilirsiniz.
+Konumunuza yalnızca namaz vakitlerini hesaplamak için ve yalnızca siz izin verirseniz erişilir. Konumunuz **bizim sunucularımıza gönderilmez**; hesaplamayı yapan namaz vakti servisine iletilir (7. maddeye bakın). İzin vermek zorunda değilsiniz; şehrinizi elle de yazabilirsiniz.
 
 ---
 
@@ -123,6 +123,13 @@ Uygulama, harf ve ayet seslerini şu iki kaynaktan yayın anında çeker. Sesler
 - `audio.qurancdn.com` — Quran Foundation; ayet tilaveti ve kelime kelime okunuş. Hurma, Quran Foundation'ın kayıtlı geliştiricisidir ve kuruluşun geliştirici şartlarına tabidir.
 
 Bir ses dosyası çalındığında bu sunucular, her internet isteğinde olduğu gibi cihazınızın IP adresini görür. Bu sunuculara hesabınıza dair hiçbir bilgi gönderilmez.
+
+### Namaz vakitleri ve hava durumu
+Namaz vakitleri `api.aladhan.com` (Aladhan) üzerinden hesaplanır. Konum iznini verdiyseniz koordinatlarınız, vermediyseniz yalnızca seçtiğiniz şehrin adı bu servise gönderilir.
+
+Kişiselleştirme ekranındaki sıcaklık ve hava efekti için `api.open-meteo.com`, şehir aramak için `geocoding-api.open-meteo.com` (Open-Meteo) kullanılır; buraya da yalnızca koordinat ya da aradığınız şehrin adı gider.
+
+Bu iki servis hesap gerektirmez. Onlara gönderilen isteklerde adınız, e-postanız, hesabınız ya da sizi tanımlayan başka hiçbir bilgi bulunmaz — her internet isteğinde olduğu gibi cihazınızın IP adresini görürler.
 
 Bunların dışında verilerinizi **hiçbir üçüncü tarafla paylaşmıyoruz**. Yalnızca yasal bir zorunluluk hâlinde (mahkeme kararı vb.) paylaşım yapılabilir.
 
