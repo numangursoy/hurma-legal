@@ -1,6 +1,6 @@
 # Hurma — Privacy Policy
 
-**Last updated:** 6 September 2026
+**Last updated:** 7 September 2026
 
 Hurma is a mobile app that teaches you to read the Qur'an. This policy explains what data is processed when you use the app.
 
@@ -9,7 +9,7 @@ Hurma is a mobile app that teaches you to read the Qur'an. This policy explains 
 ## In short
 
 - We do not sell your data to anyone, and we do not share it for marketing.
-- The app contains **no advertising**, and no third-party analytics tool (Google Analytics, Firebase, Facebook SDK and the like) is used.
+- The app **shows no advertising**. To measure whether our own ad campaigns work, it contains TikTok's measurement tool; it uses your advertising identifier only if you allow tracking on iOS, and it can be switched off in Profile (section 5).
 - We collect **anonymous usage statistics** to improve the app; they stay on our own server and can be switched off in Profile (section 5).
 - Even when we access your contacts, **your contact data never leaves your device**.
 - You can permanently delete your account and all your data from inside the app.
@@ -81,7 +81,7 @@ We use the **RevenueCat** service to verify subscription status. RevenueCat rece
 
 ## 5. Usage statistics
 
-So we can see where the app helps and where you get stuck, we collect **anonymous usage statistics**. These records stay on **our own server** (Supabase). No third-party analytics or advertising tool — Google Analytics, Firebase, Facebook SDK or similar — is used, and the data is sent to no company.
+So we can see where the app helps and where you get stuck, we collect **anonymous usage statistics**. These records stay on **our own server** (Supabase); they are **not sent** to any analytics company such as Google Analytics, Firebase or Facebook SDK. The events that go to TikTok for ad measurement are separate and are described at the end of this section.
 
 **What is recorded** is only this:
 
@@ -97,6 +97,13 @@ If you have an account, the statistics are linked to it, so that one person's tw
 
 **To switch it off:** go to Profile and turn off **Usage statistics**. From that moment no new records are created, and the records collected from your device so far are **deleted** from the server. They are also deleted when you delete your account.
 
+### Ad measurement (TikTok)
+We advertise Hurma on TikTok. So we can see which ads actually lead to installs and subscriptions, the app contains the **TikTok Business SDK**. It sends TikTok the following: that the app was opened, the onboarding was completed, a lesson was finished, a free trial or subscription started, and the purchase amount; plus technical details such as device model, operating system version, app version and language.
+
+**Your advertising identifier (IDFA) is used only if you allow it.** iOS shows a one-time "allow tracking" prompt for this. If you decline, no advertising identifier goes to TikTok; measurement then happens through Apple's privacy-preserving SKAdNetwork, without identifying you. You do not have to allow it; the app works exactly the same.
+
+Your name, email, lessons or anything you type never go to TikTok. While the Profile → **Usage statistics** switch is off, no events are sent to TikTok either. How TikTok handles this data: https://www.tiktok.com/legal/privacy-policy
+
 ---
 
 ## 6. Data we do not collect
@@ -105,10 +112,10 @@ We **do not access or collect** any of the following:
 
 - Your photos or files
 - Your microphone or camera
-- Third-party analytics tools, behavioural tracking, cookie-based tracking
-- Your advertising identifier (IDFA)
+- Cookie-based tracking, social media tracking pixels
+- Your advertising identifier (IDFA), unless you allowed tracking on iOS
 
-The app contains **no advertising SDK and no third-party analytics or tracking SDK**. There is no third-party tracking of any kind. For the anonymous usage statistics we collect ourselves, see section 5. The app does not track you across other apps or websites, and for that reason no App Tracking Transparency prompt is shown on iOS.
+The app contains **no ad-serving SDK**. The only third-party measurement tool is the TikTok ad measurement described in section 5; for that reason iOS asks for tracking permission (App Tracking Transparency) **once**, and you can decline. For the anonymous usage statistics we collect ourselves, see section 5 as well.
 
 Your location is accessed only to calculate prayer times, and only if you grant permission. Your location is **not sent to our servers**; it is passed to the prayer-time service that performs the calculation (see section 8). Granting it is optional — you can type your city in instead.
 
@@ -126,6 +133,7 @@ Your location is accessed only to calculate prayer times, and only if you grant 
 | To enforce the 13-year age limit | Age |
 | To calculate prayer times | The city you select (or your location, if you allowed it) |
 | To improve the app and see where you get stuck | Anonymous usage statistics (section 5; can be switched off in Profile) |
+| To measure the effect of our ad campaigns | App events and technical device details; your advertising identifier if you allowed it (TikTok, section 5) |
 
 The legal basis for this processing is the performance of the service agreement between us, and your explicit consent (for notifications, contacts access and location).
 
@@ -151,6 +159,9 @@ Prayer times are calculated through `api.aladhan.com` (Aladhan). If you granted 
 For the temperature and weather effect on the personalisation screen we use `api.open-meteo.com`, and for city search `geocoding-api.open-meteo.com` (Open-Meteo); those receive only coordinates or the city name you are searching for.
 
 Neither service requires an account. The requests we send them carry no name, e-mail, account or anything else that identifies you — as with any internet request, they see your device's IP address.
+
+### Ad measurement
+For ad measurement, the events listed in section 5 are passed to **TikTok** (TikTok Technology Limited). The advertising identifier is sent only if you allowed tracking on iOS.
 
 Apart from this, we **share your data with no third party**. Sharing may occur only where legally required (a court order, for example).
 
