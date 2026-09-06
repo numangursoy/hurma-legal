@@ -1,8 +1,8 @@
 # Hurma — Terms of Use
 
-**Last updated:** 3 August 2026
+**Last updated:** 6 September 2026
 
-These terms govern your use of the Hurma mobile app (the "App"). By downloading the App, creating an account or using it, you accept these terms. If you do not accept them, please do not use the App.
+These terms govern your use of the Hurma mobile app (the "App"). By downloading or using the App, you accept these terms. If you do not accept them, please do not use the App.
 
 ---
 
@@ -14,7 +14,7 @@ Hurma is an educational app that teaches the Arabic letters, the vowel marks, th
 
 ## 2. Account
 
-- To use the App you need to create an account with Google, Apple or email.
+- You can use the App **without an account**. Creating one with Google, Apple or email is optional; it is needed to back up your progress to the cloud and to use the circle and leaderboard features.
 - You are responsible for the security of your account credentials.
 - The App is intended for users **aged 13 and over**. If you are under 13, please use it under parental supervision.
 - You can delete your account at any time from the profile screen inside the App. Deletion permanently removes your progress and your profile data.
