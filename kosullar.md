@@ -1,8 +1,8 @@
 # Hurma — Kullanım Koşulları
 
-**Son güncelleme:** 3 Ağustos 2026
+**Son güncelleme:** 6 Eylül 2026
 
-Bu koşullar, Hurma mobil uygulamasının ("Uygulama") kullanımını düzenler. Uygulamayı indirerek, hesap oluşturarak veya kullanarak bu koşulları kabul etmiş olursunuz. Kabul etmiyorsanız Uygulamayı kullanmayınız.
+Bu koşullar, Hurma mobil uygulamasının ("Uygulama") kullanımını düzenler. Uygulamayı indirerek veya kullanarak bu koşulları kabul etmiş olursunuz. Kabul etmiyorsanız Uygulamayı kullanmayınız.
 
 ---
 
@@ -14,7 +14,7 @@ Hurma; Arap harflerini, harekeleri, tecvid kurallarını ve sure okumayı adım 
 
 ## 2. Hesap
 
-- Uygulamayı kullanmak için Google, Apple veya e-posta ile hesap oluşturmanız gerekir.
+- Uygulama **hesap açmadan da kullanılabilir**. Google, Apple veya e-posta ile hesap oluşturmak isteğe bağlıdır; ilerlemenizin buluta yedeklenmesi, halka ve liderlik tablosu özellikleri için gerekir.
 - Hesap bilgilerinizin güvenliğinden siz sorumlusunuz.
 - Uygulama **13 yaş ve üzeri** kullanıcılar içindir. 13 yaşından küçükseniz ebeveyn gözetiminde kullanınız.
 - Hesabınızı uygulama içindeki profil ekranından istediğiniz zaman silebilirsiniz. Silme işlemi ilerlemenizi ve profil verinizi kalıcı olarak kaldırır.
